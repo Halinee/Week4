@@ -13,6 +13,14 @@ public class App
         h1.setAge(24);
         h1.setNumber(201413328);
 
+        System.out.println("승환`s edit");
+        for(int i=0; i<5; i++){
+                for(int j=5; j>i; j--){
+                        System.out.print("*");
+                }
+                System.out.print("\n");
+        }
+
         User h2 = new User();
         h2.setName("이현수");
         h2.setAge(24);
