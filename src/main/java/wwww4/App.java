@@ -38,7 +38,6 @@ public class App
         System.out.println("나이 : " + h2.getAge());
         System.out.println("학번 : " + h2.getNumber());
 
-
         System.out.println("\n-----사용자-----");
         System.out.println("이름 : " + h3.getName());
         System.out.println("나이 : " + h3.getAge());
