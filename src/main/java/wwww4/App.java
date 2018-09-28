@@ -48,11 +48,15 @@ public class App
         System.out.println( "나이 : " + h4.getAge() );
         System.out.println( "학번 : " + h4.getNumber());
 
-        if(h4.getName().contains("이")){
-        System.out.println( "\n이름에 \'이\'가 있네");
+        for(int i = 0; i < 5; i++)
+        {
+            for(int j = 0; j < i; j++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
         }
-        else{
-        System.out.println("\n이름에  \'이\'가 네");
-        }
+
+
     }
 }
