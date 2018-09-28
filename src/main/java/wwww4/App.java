@@ -54,6 +54,13 @@ public class App
         System.out.println( "\n-----사용자-----" );
         System.out.println( "이름 : " + h4.getName() );
         System.out.println( "나이 : " + h4.getAge() );
-        System.out.println( "학번 : " + h4.getNumber() );
+        System.out.println( "학번 : " + h4.getNumber());
+
+        if(h4.getName().contains("이")){
+        System.out.println( "\n이름에 \'이\'가 있네");
+        }
+        else{
+        System.out.println("\n이름에  \'이\'가 네");
+        }
     }
 }
