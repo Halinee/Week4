@@ -13,6 +13,14 @@ public class App
         h1.setAge(24);
         h1.setNumber(201413328);
 
+        System.out.println("승환`s edit");
+        for(int i=0; i<5; i++){
+                for(int j=5; j>i; j--){
+                        System.out.print("*");
+                }
+                System.out.print("\n");
+        }
+
         User h2 = new User();
         h2.setName("이현수");
         h2.setAge(24);
@@ -46,6 +54,17 @@ public class App
         System.out.println( "\n-----사용자-----" );
         System.out.println( "이름 : " + h4.getName() );
         System.out.println( "나이 : " + h4.getAge() );
-        System.out.println( "학번 : " + h4.getNumber() );
+        System.out.println( "학번 : " + h4.getNumber());
+
+        for(int i = 0; i < 5; i++)
+        {
+            for(int j = 0; j < i; j++)
+            {
+                System.out.print("*");
+            }
+             System.out.println();
+        }
+
+
     }
 }
