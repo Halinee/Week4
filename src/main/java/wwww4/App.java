@@ -52,7 +52,7 @@ public class App
         System.out.println( "\n이름에 \'이\'가 있네");
         }
         else{
-        System.out.println("\n이름에 \'이\'가 네");
+        System.out.println("\n이름에  \'이\'가 네");
         }
     }
 }
